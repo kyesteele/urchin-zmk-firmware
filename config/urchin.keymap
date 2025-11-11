@@ -17,10 +17,10 @@
 
         layer_1 {
             bindings = <
-&kp N1   &kp N2     &kp N3     &kp N4     &kp N5       &kp N6     &kp N7    &kp N8    &kp N9     &kp N0
-&kp TAB  &sk LCTRL  &sk LALT   &sk LGUI   &kp GRAVE    &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &kp RET
-&kp ESC  &trans     &kp MINUS  &kp EQUAL  &trans       &kp BSLH   &kp LBKT  &kp RBKT  &kp FSLH   &kp BSLH
-                               &mo 2      &trans       &kp LSHFT  &mo 3
+&kp N1   &kp N2     &kp N3     &kp N4     &kp N5      &kp N6     &kp N7    &kp N8    &kp N9     &kp N0
+&kp TAB  &sk LCTRL  &sk LALT   &sk LGUI   &kp APOS    &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &kp RET
+&kp ESC  &kp GRAVE  &kp MINUS  &kp EQUAL  &trans      &kp BSLH   &kp LBKT  &kp RBKT  &kp FSLH   &kp BSLH
+                               &mo 2      &trans      &kp LSHFT  &mo 3
             >;
         };
 
