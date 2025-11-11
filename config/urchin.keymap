@@ -20,7 +20,7 @@
 &kp N1   &kp N2     &kp N3     &kp N4     &kp N5       &kp N6     &kp N7    &kp N8    &kp N9     &kp N0
 &kp TAB  &sk LCTRL  &sk LALT   &sk LGUI   &kp GRAVE    &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &kp RET
 &kp ESC  &trans     &kp MINUS  &kp EQUAL  &trans       &kp BSLH   &kp LBKT  &kp RBKT  &kp FSLH   &kp BSLH
-                               &mo 2      &trans       &kp LSHFT  &trans
+                               &mo 2      &trans       &kp LSHFT  &mo 3
             >;
         };
 
@@ -30,6 +30,15 @@
 &trans  &trans        &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans
                                     &trans  &trans    &trans  &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &kp C_BRIGHTNESS_DEC  &trans            &kp C_BRIGHTNESS_INC  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &kp C_VOLUME_DOWN     &kp K_MUTE        &kp C_VOLUME_UP       &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &kp C_PREVIOUS        &kp C_PLAY_PAUSE  &kp C_NEXT            &trans
+                        &trans  &trans    &trans  &trans
             >;
         };
     };
